@@ -1,4 +1,4 @@
-package java_8_features_examples;
+package collection;
 
 public class List_example {
 
