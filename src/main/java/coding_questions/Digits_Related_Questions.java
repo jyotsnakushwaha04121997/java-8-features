@@ -7,8 +7,8 @@ public class Digits_Related_Questions {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();int temp=n;int reverse=n;int n1=n;
-		int k=sc.nextInt();	int count=0;
-	
+		int a=sc.nextInt();int b=sc.nextInt();int k=sc.nextInt();int count=0;
+	int n2=a;int n3=b;
 		//no. of digits
 		while(n!=0) {
 		n=n/10;
@@ -41,8 +41,14 @@ public class Digits_Related_Questions {
 	int result=rem*multiplier+q;
 	System.out.println(result);
 	
-	
-	
+	//gcd and lcm
+	while(a%b!=0) {
+		int remainder=a%b;
+		b=a;
+		a=remainder;
+	}
+	int gcd=a;int lcm=(n2*n3)/gcd;
+	System.out.println(gcd);System.out.println(lcm);
 	
 	
 	
