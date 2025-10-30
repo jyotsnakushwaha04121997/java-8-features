@@ -29,7 +29,7 @@ public class Digits_Related_Questions {
 	//print reverse order of number
 	while(reverse>0) {
 		 int div=reverse%10; reverse=reverse/10;
-		 System.out.println(div);
+		 System.out.print(div);
 	}
 	
 	//rotating the number
